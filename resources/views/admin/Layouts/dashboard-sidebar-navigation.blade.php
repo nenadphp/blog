@@ -33,7 +33,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="index.html" class="nav-link ">
+                <a href="{{route('adminCommentList')}}" class="nav-link ">
                     <i class="icon icon-speedometer"></i> Comments
                 </a>
             </li>

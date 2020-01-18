@@ -46,7 +46,6 @@ $( document ).ready(function() {
 
         let checked = $(this).is(":checked");
         $(this).attr("checked", checked);
-        console.log(checked);
 
 
         if(role_id && confirm_request) {

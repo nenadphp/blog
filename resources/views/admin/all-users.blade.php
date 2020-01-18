@@ -30,7 +30,12 @@
                                             <i class="icon icon-people"></i>
                                             <a href="{{route('userProfile', $user->id)}}"> {{$user->name}} {{$user->last_name}}</a>
                                         </span>
-                                        <span class="font-weight-light">Total posts | {{$user->posts->count()}}</span>
+                                        <div class="col-md-12">
+                                            <span class="font-weight-light">Total posts | {{$user->posts->count()}}</span>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <span class="font-weight-light">Total comments | {{$user->comments->count()}}</span>
+                                        </div>
                                     </div>
 
                                     <div class="h2 text-muted">
